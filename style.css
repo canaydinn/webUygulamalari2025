@@ -1,0 +1,75 @@
+/*Seçiciler Selector
+#etiket tag seçiciler
+*/
+
+input{
+    color:red;
+}
+h1,input{
+    font-size: large;
+}
+textarea{
+    font-weight: 700;
+}
+label{
+    font-size: 20px;
+    color:green;
+}
+/*Sınıf Seçicisi Class*/
+.buton{
+    background-color: blue;
+}
+/*ID seçicisi*/
+#adi{
+    background-color: yellow;
+}
+
+/*Evrensel Seçici*/
+
+*{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+#header{
+    width:500px;
+    height:150px;
+    background-color: aqua;
+}
+#container{
+    width:500px;
+    height:600px;
+    background-color: rgb(197, 153, 32);
+}
+#footer{
+    width:500px;
+    height:150px;
+    background-color: rgb(17, 91, 189);
+}
+/*Torun seçiciler*/
+#container ul li{
+    color:red;
+}
+#container ul li a{
+    list-style-type: none;
+}
+a:link{text-decoration: none;}
+a:hover{color:green}
+a:visited{color:aqua}
+a:active{
+
+#container>ul{
+    color:green;
+}
+
+ul+label{
+    color:purple;
+}
+/*özellik seçicis*/
+a[title='baslik']{
+    color: crimson;
+}
+
+input[type='submit']{
+    color: crimson;
+}
