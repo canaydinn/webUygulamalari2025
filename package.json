@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/canaydinn/webUygulamalari2025#readme",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "body-parser": "^1.20.9",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "express": "^4.22.3",
     "mysql": "^2.18.1",
     "mysql2": "^3.11.5",
     "nodemon": "^3.1.7",
